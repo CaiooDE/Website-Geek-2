@@ -1,0 +1,606 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+body{
+    display: flex;
+    background-image: url(Fundo.png);
+    background-repeat:repeat;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-size: 100% 100%;
+}
+
+
+@font-face {
+    font-family: principal;
+    src: url(NTBrickSans.ttf);
+}
+
+@font-face {
+    font-family: secundaria;
+    src: url(Ultramagnetic_Bold.ttf);
+}
+
+
+.home{
+    text-decoration: none;
+    text-align: center;
+    font-family: principal;
+    font-size: 40px;
+    color: #fff;
+    height: 65px;
+    width: 180px;
+    padding: 10px;
+    position:absolute;
+    margin-left: 500px;
+    margin-top: 0px;
+}
+
+
+.home:hover{
+    transition: 0.5s;
+    background-color: #9ACF16;
+}
+
+
+.loja{
+    text-decoration: none;
+    text-align: center;
+    font-family: principal;
+    font-size: 40px;
+    color: #fff;
+    height: 65px;
+    width: 280px;
+    padding: 10px;
+    position:absolute;
+    margin-left: 900px;
+    margin-top: 0px;
+}
+
+
+.loja:hover{
+    transition: 0.5s;
+    background-color: #9ACF16;
+}
+
+
+.contato{
+    text-decoration: none;
+    text-align: center;
+    font-family: principal;
+    font-size: 40px;
+    color: #fff;
+    height: 65px;
+    width: 280px;
+    padding: 10px;
+    position:absolute;
+    margin-left: 1350px;
+    margin-top: 0px;
+}
+
+
+.contato:hover{
+    transition:0.5s;
+    background-color: #9ACF16;
+}
+
+
+.elipse{
+    width: 330px;
+    height: 330px;
+    display:flex;
+    background-color: #B41252;
+    border: 16px solid #9ACF16;
+    border-radius: 100%;
+    align-self: flex-start;
+    position: absolute;
+    
+    }
+    
+    
+header{
+        box-sizing: border-box;
+        margin-top: 70px;
+        margin-left: 90px;
+        margin-right: 0;
+        width: 1706px;
+        height: 83px;
+        background-color: #B41252;
+        border: 10px solid #9ACF16;
+        border-radius: 20px;
+     }
+
+
+     .planeta1{
+        position: absolute;
+        width:400px;
+        height: 259.28px;
+        margin-top: 600px;
+        margin-left: 50px;
+    }
+
+
+    .contato-caixa{
+        box-sizing: border-box;
+        position: absolute;
+        width: 841px;
+        height: 712px;
+        background: #B41252;
+        border: 40px solid #9ACF16;
+        border-radius: 59px;
+        margin-top: 200px;
+        margin-left: -1000px;
+    }
+
+
+    h1{
+        position: absolute;
+        width: 581px;
+        height: 151px;
+        font-family: 'NT Brick Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 96px;
+        line-height: 151px;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-left: 90px;
+    }
+
+
+    h2{
+        position: absolute;
+        width: 676px;
+        height: 219px;
+        font-family: 'Ultramagnetic';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 73px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 200px;
+        margin-left: 50px;
+    }
+
+
+    
+
+    .wpp{
+        margin-bottom: -20px;
+        margin-top: 440px;
+        margin-left: 10px;
+    }
+
+
+    .insta{
+        margin-left: 50px;
+    }
+
+
+    .face{
+        margin-left: 10px;
+    }
+     
+
+    @media only screen and (max-width: 1440px) and (min-width: 1024px){
+        .topo{
+            width: 150px;
+            height: 30px;
+            margin-left: 15px;
+        }
+
+
+       
+        .home{
+            margin-left: 300px;
+            font-size: 25px;
+            height: 25px;
+            width: 100px
+        }
+    
+        .loja{
+            margin-left: 600px;
+            font-size: 25px;
+            height: 25px;
+            width: 120px
+        }
+    
+    
+        .contato{
+            margin-left: 980px;
+            font-size: 25px;
+            height: 25px;
+            width: 130px
+        }
+
+        .planeta1{
+            width: 300px;
+            height: 270px;
+            margin-top: 500px;
+        }
+
+        header{
+            width: 1300px;
+            height: 50px;
+            border: 5px solid #9ACF16;
+            margin-right: -1000px;
+        }
+
+
+        .contato-caixa{
+            margin-left: 50px;
+            width: 756.9px;
+            height: 640.8px;
+
+        }
+
+        h1{
+            font-size: 90px;
+            margin-left: 70px;
+        }
+
+
+
+        h2{        
+            font-size: 40px;
+            margin-top: 150px;
+            margin-left: 9px;
+        }
+
+
+        .wpp{
+            margin-top: 380px;
+        }
+
+
+        .insta{
+            margin-left: 35px;
+        }
+       
+    }
+
+
+    @media only screen and (max-width: 1366px) and (min-width: 1024px){
+        .topo{
+            width: 150px;
+            height: 30px;
+            margin-left: 15px;
+        }
+
+
+       
+        .home{
+            margin-left: 225px;
+            font-size: 25px;
+            height: 25px;
+            width: 100px
+        }
+    
+        .loja{
+            margin-left: 472px;
+            font-size: 25px;
+            height: 25px;
+            width: 140px
+        }
+    
+    
+        .contato{
+            margin-left: 789px;
+            font-size: 25px;
+            height: 25px;
+            width: 150px
+        }
+
+
+        .elipse{
+            width:  200px;
+            height: 200px;
+            border: 6px solid #9ACF16;
+    
+        }
+    
+    
+        .logotipo{
+            width:  200px;
+            height: 200px;
+        }
+
+
+        .planeta1{
+            width: 300px;
+            height: 270px;
+            margin-top: 500px;
+        }
+
+        header{
+            width: 1110px;
+            height: 50px;
+            border: 5px solid #9ACF16;
+            margin-right: -1000px;
+        }
+
+
+        .contato-caixa{
+            margin-left: 180px;
+            width: 613.089px;
+            height: 512.64px;
+            margin-top: 170px;
+            border: 20px solid #9ACF16;
+        }
+
+        h1{
+            font-size: 70px;
+            margin-left: 70px;
+        }
+
+
+
+        h2{        
+            font-size: 30px;
+            margin-top: 150px;
+            margin-left: 70px;
+            width: 440px;
+        }
+
+
+        .wpp{
+            margin-top: 380px;
+            width: 20%;
+            height: 20%;
+
+        }
+
+
+        .insta{
+            margin-left: 55px;
+            width: 20%;
+            height: 20%;
+            margin-bottom: -12px;
+        }
+
+        .face{
+            width: 20%;
+            height: 20%;
+            margin-bottom: -12px;
+        }
+       
+    }
+
+
+    @media only screen and (max-width: 1024px) and (min-width: 768px){
+        .topo{
+            width: 150px;
+            height: 30px;
+            margin-left: 15px;
+        }
+
+
+       
+        .home{
+            margin-left: 250px;
+            font-size: 20px;
+            height: 25px;
+            width: 100px
+        }
+    
+        .loja{
+            margin-left: 400px;
+            font-size: 20px;
+            height: 25px;
+            width: 120px
+        }
+    
+    
+        .contato{
+            margin-left: 600px;
+            font-size: 20px;
+            height: 25px;
+            width: 130px
+        }
+
+        .planeta1{
+            width: 300px;
+            height: 270px;
+            margin-top: 500px;
+        }
+
+        header{
+            width: 800px;
+            height: 50px;
+            border: 5px solid #9ACF16;
+            margin-right: -1000px;
+        }
+
+
+        .contato-caixa{
+            margin-left: 470px;
+            width: 613.089px;
+            height: 512.64px;
+            margin-top: 200px;
+            border: 20px solid #9ACF16;
+        }
+
+
+
+        h1{
+            font-size: 70px;
+            margin-left: 75px;
+        }
+
+
+
+        h2{        
+            width: 550px;
+            font-size: 30px;
+            margin-top: 150px;
+            margin-left: 9px;
+        }
+
+
+        .wpp{
+            margin-top: 380px;
+            width: 90px;
+            height: 90px;
+        }
+
+
+        .insta{
+            margin-left: 65px;
+            width: 90px;
+            height: 90px;
+            margin-bottom: -10px;
+        }
+
+
+        .face{
+            width: 90px;
+            height: 90px;
+            margin-bottom: -10px;
+        }
+    }
+
+    @media only screen and (max-width: 768px){
+        .home:hover{
+            background-color: transparent;
+        }
+    
+    
+        .loja:hover{
+            background-color: transparent;
+        }
+    
+    
+        .contato:hover{
+            background-color: transparent;
+        }
+        
+        
+        .planeta1{
+            width: 400px;
+            height: 270px;
+            margin-top: 750px;
+        }
+    }
+
+
+    @media only screen and (max-width: 425px){
+        .home:hover{
+            background-color: transparent;
+        }
+    
+    
+        .loja:hover{
+            background-color: transparent;
+        }
+    
+    
+        .contato:hover{
+            background-color: transparent;
+        }
+
+
+        .home{
+            margin-left: 80px;
+            font-size: 20px;
+        }
+    
+        .loja{
+            margin-left:190px;
+            font-size: 20px;
+        }
+    
+    
+        .contato{
+            margin-left: 350px;
+            font-size: 20px;
+        }
+    
+        .elipse{
+            width:  130px;
+            height: 130px;
+            border: 6px solid #9ACF16;
+    
+        }
+    
+    
+        .logotipo{
+            width:  130px;
+            height: 130px;
+        }
+    
+    
+        .planeta1{
+            width: 350px;
+            height: 300px;
+            margin-top: 730px;
+    
+        }
+    
+    
+        header{
+            width: 1200px;
+            height: 50px;
+            border: none;
+            background: transparent;
+        }
+
+
+        .contato-caixa{
+            margin-left: -385px;
+            width: 613.089px;
+            height: 512.64px;
+            margin-top: 200px;
+            border: 20px solid #9ACF16;
+        }      
+        
+        
+        h1{
+            font-size: 55px;
+            margin-left: 110px;
+        }
+
+
+
+        h2{        
+            width: 400px;
+            font-size: 25px;
+            margin-top: 150px;
+            margin-left: 75px;
+        }
+
+
+        .wpp{
+            margin-top: 380px;
+            width: 90px;
+            height: 90px;
+        }
+
+
+        .insta{
+            margin-left: 65px;
+            width: 90px;
+            height: 90px;
+            margin-bottom: -10px;
+        }
+
+
+        .face{
+            width: 90px;
+            height: 90px;
+            margin-bottom: -10px;
+        }
+
+    }
+    
+
+
+    
+    

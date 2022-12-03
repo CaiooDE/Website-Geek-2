@@ -1,0 +1,547 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+
+body{
+    display: flex;
+    background-image: url(Fundo.png);
+    background-repeat:repeat;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-size: 100% 100%;
+}
+
+
+@font-face {
+    font-family: principal;
+    src: url(NTBrickSans.ttf);
+}
+
+@font-face {
+    font-family: secundaria;
+    src: url(Ultramagnetic_Bold.ttf);
+}
+
+
+.home{
+    text-decoration: none;
+    text-align: center;
+    font-family: principal;
+    font-size: 40px;
+    color: #fff;
+    height: 50px;
+    width: 180px;
+    padding: 10px;
+    position:absolute;
+    margin-left: 500px;
+    
+}
+
+
+.home:hover{
+    transition: 0.5s;
+    background-color: #9ACF16;
+}
+
+
+.loja{
+    text-decoration: none;
+    text-align: center;
+    font-family: principal;
+    font-size: 40px;
+    color: #fff;
+    height: 50px;
+    width: 280px;
+    padding: 10px;
+    position:absolute;
+    margin-left: 900px;
+   
+}
+
+
+.loja:hover{
+    transition: 0.5s;
+    background-color: #9ACF16;
+}
+
+
+.contato{
+    text-decoration: none;
+    text-align: center;
+    font-family: principal;
+    font-size: 40px;
+    color: #fff;
+    height: 50px;
+    width: 280px;
+    padding: 10px;
+    position:absolute;
+    margin-left: 1350px;
+    
+}
+
+.contato:hover{
+    transition:0.5s;
+    background-color: #9ACF16;
+}
+
+
+.container{
+   display: inline-block;;
+   position:absolute;
+  margin-top: 150px;
+  margin-left: 500px;
+}
+
+
+.foto{
+    position: relative;
+    display: inline-block;
+    border:none;
+    border-radius: 20%;
+    transition: all 0.5s;
+    cursor: pointer;
+    
+   
+}
+
+
+.foto{
+    margin-right: 40px;
+    
+    margin-top: 50px;
+    
+}
+
+
+.foto1{
+    margin-right: 41px;
+    display:inline-block; 
+    border:none;
+    border-radius: 20%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: x
+}
+
+
+.foto:hover{   
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+
+.foto1:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+
+
+.logotipo{
+    height: 330px;
+    width: 330px;
+    display: flex;
+    position: absolute;
+}
+
+
+.elipse{
+    width: 330px;
+    height: 330px;
+    display:flex;
+    background-color: #B41252;
+    border: 16px solid #9ACF16;
+    border-radius: 100%;
+    align-self: flex-start;
+    position: absolute;
+    
+    }
+    
+    
+    header{
+        box-sizing: border-box;
+        margin-top: 70px;
+        margin-left: 90px;
+        margin-right: 0;
+        width: 1706px;
+        height: 83px;
+        background-color: #B41252;
+        border: 10px solid #9ACF16;
+        border-radius: 20px;
+        }
+    
+
+        .planeta1{
+            position: absolute;
+            width: 382px;
+            height: 259.28px;
+            margin-top: 600px;
+            margin-left: 50px;
+        }
+
+
+        @media only screen and (max-width: 1440px) and (min-width: 1024px){
+        
+            
+            
+            .topo{
+                width: 150px;
+                height: 30px;
+                margin-left: 15px;
+            }
+
+
+           
+            .home{
+                margin-left: 300px;
+                font-size: 25px;
+                height: 25px;
+                width: 100px
+            }
+        
+            .loja{
+                margin-left: 600px;
+                font-size: 25px;
+                height: 25px;
+                width: 120px
+            }
+        
+        
+            .contato{
+                margin-left: 980px;
+                font-size: 25px;
+                height: 25px;
+                width: 130px
+            }
+
+            .planeta1{
+                width: 200px;
+                height: 200px;
+                margin-top: 500px;
+            }
+        
+        
+            header{
+                width: 1300px;
+                height: 50px;
+                border: 5px solid #9ACF16;
+                margin-right: -1000px;
+            }
+
+
+            .container{
+                width: 1100px;
+                margin-left: 250px;
+            }
+
+
+            .elipse{
+                width:  220px;
+                height: 220px;
+                border: 6px solid #9ACF16;
+        
+            }
+        
+        
+            .logotipo{
+                width:  220px;
+                height: 220px;
+            }
+
+
+            body{
+                width:min-content;
+            }
+
+
+            .produto{
+                width: 216.9px;
+                height: 289.71900000000005px;
+                
+            }
+        }
+
+        @media only screen and (max-width: 1024px) and (min-width: 768px){
+            
+            
+            
+            .home{
+                margin-left: 150px;
+                font-size: 20px;
+            }
+        
+            .loja{
+                margin-left: 340px;
+                font-size: 20px;
+            }
+        
+        
+            .contato{
+                margin-left: 560px;
+                font-size: 20px;
+            }
+        
+            .elipse{
+                width:  230px;
+                height: 230px;
+                border: 6px solid #9ACF16;
+        
+            }
+        
+        
+            .logotipo{
+                width:  230px;
+                height: 230px;
+            }
+        
+        
+            .planeta1{
+                width: 200px;
+                height: 200px;
+                margin-top: 630px;
+                margin-left: auto;
+        
+            }
+        
+        
+            header{
+                width: 850px;
+                height: 50px;
+                border: 5px solid #9ACF16;
+            }
+
+
+            .container{
+                margin-top: 150px;
+                margin-left: 250px;
+                width: 1100px;
+                
+            }
+
+
+            .produto{
+                width: 216.9px;
+                height: 289.71900000000005px;
+            }
+        }
+
+
+        @media only screen and (max-width: 768px){
+            .home:hover{
+                background-color: transparent;
+            }
+        
+        
+            .loja:hover{
+                background-color: transparent;
+            }
+        
+        
+            .contato:hover{
+                background-color: transparent;
+            }
+            
+            
+            .home{
+                margin-left: 150px;
+                font-size: 20px;
+                height: 25px;
+                width: 80px
+            }
+        
+            .loja{
+                margin-left: 280px;
+                font-size: 20px;
+                height: 25px;
+                width: 130px
+            }
+        
+        
+            .contato{
+                margin-left: 450px;
+                font-size: 20px;
+                height: 25px;
+                width: 130px
+            }
+        
+            .elipse{
+                width:  200px;
+                height: 200px;
+                border: 6px solid #9ACF16;
+        
+            }
+        
+        
+            .logotipo{
+                width:  200px;
+                height: 200px;
+            }
+        
+        
+            .planeta1{
+                width: 200px;
+                height: 200px;
+                margin-top: 600px;
+                visibility: hidden;
+        
+            }
+        
+        
+            header{
+                width: 650px;
+                height: 50px;
+                border: 5px solid #9ACF16;
+            }
+
+
+            .container{
+                margin-left: 170px;
+                width: 600px;
+                align-items: center;
+                justify-content: center;
+            }
+
+        }
+
+
+        @media only screen and (max-width: 425px){
+            .home:hover{
+                background-color: transparent;
+            }
+        
+        
+            .loja:hover{
+                background-color: transparent;
+            }
+        
+        
+            .contato:hover{
+                background-color: transparent;
+            }
+           
+           
+            .home{
+                margin-left: 80px;
+                font-size: 20px;
+            }
+        
+            .loja{
+                margin-left:190px;
+                font-size: 20px;
+            }
+        
+        
+            .contato{
+                margin-left: 350px;
+                font-size: 20px;
+            }
+        
+            .elipse{
+                width:  130px;
+                height: 130px;
+                border: 6px solid #9ACF16;
+        
+            }
+        
+        
+            .logotipo{
+                width:  130px;
+                height: 130px;
+            }
+        
+        
+            .planeta1{
+                width: 200px;
+                height: 200px;
+                margin-top: 600px;
+        
+            }
+        
+        
+            header{
+                width: 1200px;
+                height: 50px;
+                border: none;
+                background: transparent;
+                
+                
+            }
+       
+
+            .produto{
+                width: 192.8px;
+                height: 257.528px;
+                width: 160px
+            }
+       
+        }
+
+        @media only screen and (max-width: 1366px) and (min-width: 1024px){
+            body{
+                padding-right: 0;
+            }
+        
+        
+            .home{
+                margin-left: 225px;
+                font-size: 25px;
+                height: 20px;
+                width: 100px
+            }
+        
+            .loja{
+                margin-left: 470px;
+                font-size: 25px;
+                height: 20px;
+                width: 150px
+            }
+        
+        
+            .contato{
+                margin-left: 780px;
+                font-size: 25px;
+                height: 20px;
+                width: 170px
+            }
+        
+            .elipse{
+                width:  200px;
+                height: 200px;
+                border: 6px solid #9ACF16;
+        
+            }
+        
+        
+            .logotipo{
+                width:  200px;
+                height: 200px;
+            }
+        
+        
+            .planeta1{
+                width: 200px;
+                height: 200px;
+                margin-top: 800px;
+                margin-left: 50px;
+            }
+        
+        
+            header{
+                width: 1110px;
+                height: 50px;
+                border: 5px solid #9ACF16;
+            }
+
+
+            .container{
+                margin-left: 210px;
+            }
+        }
+        

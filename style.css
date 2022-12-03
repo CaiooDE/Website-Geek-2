@@ -1,0 +1,897 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+#cont{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+
+body{
+    
+    display: flex;
+    background-image: url(Fundo.png);
+    background-repeat:repeat;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-size: 100% 100%;
+
+}
+
+
+.slider{
+    
+    margin-left: -1100px;
+    margin-top: 300px;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10%;
+    border-top: 7px solid white;
+    border-left: 7px solid white;
+    border-right: 7px solid white;
+    border-bottom:7px solid white;
+    
+    
+}
+
+.produtos{
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.produtos input{
+    display: none;
+}
+
+
+.slide{
+    width: 25%;
+    position: relative;
+    transition: 2s;
+    
+}
+
+.slide img{
+    width: 800px;
+}
+
+
+.manualna{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.botao-manual{
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+.botao-manual:not(:last-child){
+    margin-right: 30px;
+}
+
+
+.botao-manual:hover{
+    background-color: #fff;
+}
+
+
+#rad1:checked ~ .primeiro{
+    margin-left: 0%;
+}
+
+
+#rad2:checked ~ .primeiro{
+    margin-left: -25%;
+}
+
+
+#rad3:checked ~ .primeiro{
+    margin-left: -50%;
+}
+
+
+#rad4:checked ~ .primeiro{
+    margin-left: -75%;
+}
+
+
+.autona div{
+    border: 2px solid #9ACF16;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.autona{
+    position: absolute;
+    width: 800px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.autona div:not(:last-child){
+    margin-right: 30px;
+
+}
+
+
+#rad1:checked ~ .autona .autob1{
+    background-color: #fff;
+}
+
+
+#rad2:checked ~ .autona .autob2{
+    background-color: #fff;
+}
+
+
+#rad3:checked ~ .autona .autob3{
+    background-color: #fff;
+}
+
+
+#rad4:checked ~ .autona .autob4{
+    background-color: #fff;
+}
+
+
+@font-face {
+    font-family: principal;
+    src: url(NTBrickSans.ttf);
+}
+
+@font-face {
+    font-family: secundaria;
+    src: url(Ultramagnetic_Bold.ttf);
+}
+
+
+.home{
+    text-decoration: none;
+    text-align: center;
+    font-family: principal;
+    font-size: 40px;
+    color: #fff;
+    height: 50px;
+    width: 180px;
+    padding: 10px;
+    position:absolute;
+    margin-left: 500px;
+    
+}
+
+
+.home:hover{
+    transition: 0.5s;
+    background-color: #9ACF16;
+}
+
+
+.loja{
+    text-decoration: none;
+    text-align: center;
+    font-family: principal;
+    font-size: 40px;
+    color: #fff;
+    height: 50px;
+    width: 280px;
+    padding: 10px;
+    position:absolute;
+    margin-left: 900px;
+   
+}
+
+
+.loja:hover{
+    transition: 0.5s;
+    background-color: #9ACF16;
+}
+
+
+.contato{
+    text-decoration: none;
+    text-align: center;
+    font-family: principal;
+    font-size: 40px;
+    color: #fff;
+    height: 50px;
+    width: 280px;
+    padding: 10px;
+    position:absolute;
+    margin-left: 1350px;
+}
+
+.elipse{
+width: 330px;
+height: 330px;
+display:flex;
+background-color: #B41252;
+border: 16px solid #9ACF16;
+border-radius: 100%;
+align-self: flex-start;
+position: absolute;
+
+}
+
+
+header{
+box-sizing: border-box;
+margin-top: 70px;
+margin-left: 90px;
+margin-right: 0;
+width: 1706px;
+height: 83px;
+background-color: #B41252;
+border: 10px solid #9ACF16;
+border-radius: 20px;
+
+}
+
+
+.contato:hover{
+    transition:0.5s;
+    background-color: #9ACF16;
+}
+
+
+
+
+.logotipo{
+    height: 330px;
+    width: 330px;
+    display: flex;
+    position: absolute;
+}
+
+.planeta1{
+    position: absolute;
+    width: 382px;
+    height: 259.28px;
+    margin-top: 600px;
+    margin-left: 100px;
+}
+
+
+@media only screen and (max-width: 1440px) and (min-width: 1366px) {
+    body{
+        padding-right: 0;
+    }
+
+
+    .home{
+        margin-left: 250px;
+        font-size: 25px;
+        height: 0px;
+        width: 0px;
+        
+    }
+
+    .loja{
+        margin-left: 500px;
+        font-size: 25px;
+        height: 0px;
+        width: 0px
+    }
+
+
+    .contato{
+        margin-left: 780px;
+        font-size: 25px;
+        height: 0px;
+        width: 0px
+    }
+
+    .elipse{
+        width:  230px;
+        height: 230px;
+        border: 6px solid #9ACF16;
+
+    }
+
+
+    .logotipo{
+        width:  230px;
+        height: 230px;
+    }
+
+
+    .planeta1{
+        width: 200px;
+        height: 200px;
+        margin-top: 400px;
+    }
+
+
+    header{
+        width: 1200px;
+        height: 50px;
+        border: 5px solid #9ACF16;
+        padding-left: 100p;
+    }
+
+    .slider
+    {
+        margin-top: 240px;
+        margin-left:-960px;
+        width: 800px;
+        height: 400px;
+        position:relative;
+    }
+
+    .produtos{
+        width: 400%;
+        height: 400px;
+    }
+
+    .slide img{
+        width: 800px;
+    }
+
+
+    .slide{
+        width: 800px;
+    }
+
+
+    #rad1:checked ~ .primeiro{
+        margin-left: 0%;
+    }
+
+
+    #rad2:checked ~ .primeiro{
+        margin-left: -25%;
+    }
+
+
+    #rad3:checked ~ .primeiro{
+        margin-left: -50%;
+    }
+
+
+    #rad4:checked ~ .primeiro{
+        margin-left: -75%;
+    }
+
+
+    .botao-manual{
+        visibility: hidden;
+        padding: 0;
+    }
+
+
+    .autona{
+        visibility: hidden;
+    }
+
+
+    #cont{
+        height: max-content;
+    }
+
+ 
+}
+
+
+@media only screen and (max-width: 1024px) and (min-width: 768px)  {
+
+
+    body{
+        padding-right: 0;
+    }
+
+
+    .home{
+        margin-left: 175px;
+        font-size: 20px;
+        height: 0px;
+        width: 0px
+    }
+
+    .loja{
+        margin-left: 350px;
+        font-size: 20px;
+        height: 0px;
+        width: 0px
+    }
+
+
+    .contato{
+        margin-left: 580px;
+        font-size: 20px;
+        height: 0px;
+        width: 0px
+    }
+
+    .elipse{
+        width:  230px;
+        height: 230px;
+        border: 6px solid #9ACF16;
+
+    }
+
+
+    .logotipo{
+        width:  230px;
+        height: 230px;
+    }
+
+
+    .planeta1{
+        width: 300px;
+        height: 300px;
+        margin-top: 600px;
+
+    }
+
+
+    header{
+        width: 850px;
+        height: 50px;
+        border: 5px solid #9ACF16;
+    }
+
+    .slider
+    {
+        margin-top: 250px;
+        margin-left:-900px;
+        width: 800px;
+        height: 400px;
+        position: relative;
+    }
+
+    .produtos{
+        width: 400%;
+        height: 400px;
+    }
+
+    .slide img{
+        width: 800px;
+    }
+
+
+    .slide{
+        width: 800px;
+    }
+
+
+    #rad1:checked ~ .primeiro{
+        margin-left: 0%;
+    }
+
+
+    #rad2:checked ~ .primeiro{
+        margin-left: -33.5%;
+    }
+
+
+    #rad3:checked ~ .primeiro{
+        margin-left: -66.9%;
+    }
+
+
+    #rad4:checked ~ .primeiro{
+        margin-left: -100%;
+    }
+
+
+    .botao-manual{
+        visibility: hidden;
+        padding: 0;
+    }
+
+
+    .autona{
+        visibility: hidden;
+    }
+
+
+    #cont{
+        height: max-content;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 768px)and (min-width: 425px){
+    .home:hover{
+        background-color: transparent;
+    }
+
+
+    .loja:hover{
+        background-color: transparent;
+    }
+
+
+    .contato:hover{
+        background-color: transparent;
+    }
+
+
+    body{
+        padding-right: 0;
+    }
+
+
+    .home{
+        margin-left: 100px;
+        font-size: 17px;
+    }
+
+    .loja{
+        margin-left: 230px;
+        font-size: 17px;
+    }
+
+
+    .contato{
+        margin-left: 400px;
+        font-size: 17px;
+    }
+
+    .elipse{
+        width:  180px;
+        height: 180px;
+        border: 6px solid #9ACF16;
+
+    }
+
+
+    .logotipo{
+        width:  180px;
+        height: 180px;
+    }
+
+
+    .planeta1{
+        width: 300px;
+        height: 200px;
+        margin-top: 700px;
+
+    }
+
+
+    header{
+        width: 600px;
+        height: 50px;
+        border: 5px solid #9ACF16;
+    }
+
+    .slider
+    {
+        margin-top: 240px;
+        margin-left:-660px;
+        width: 700px;
+        height: 350px;
+        position: relative;
+    }
+
+    .produtos{
+        width: 350%;
+        height: 350px;
+    }
+
+    .slide img{
+        width: 700px;
+    }
+
+
+    .slide{
+        width: 700px;
+    }
+
+
+    #rad1:checked ~ .primeiro{
+        margin-left: 0%;
+    }
+
+
+    #rad2:checked ~ .primeiro{
+        margin-left: -28.6%;
+    }
+
+
+    #rad3:checked ~ .primeiro{
+        margin-left: -57.2%;
+    }
+
+
+    #rad4:checked ~ .primeiro{
+        margin-left: -85.8%;
+    }
+
+
+    .botao-manual{
+        visibility: hidden;
+        padding: 0;
+    }
+
+
+    .autona{
+        visibility: hidden;
+    }
+
+
+    #cont{
+        height: max-content;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 425px){
+    .home:hover{
+        background-color: transparent;
+    }
+
+
+    .loja:hover{
+        background-color: transparent;
+    }
+
+
+    .contato:hover{
+        background-color: transparent;
+    }
+
+    
+    body{
+        padding-right: 0;
+    }
+
+
+    .home{
+        margin-left: 30px;
+        font-size: 15px;
+    }
+
+    .loja{
+        margin-left:121px;
+        font-size: 15px;
+    }
+
+
+    .contato{
+        margin-left: 280px;
+        font-size: 15px;
+    }
+
+    .elipse{
+        width:  130px;
+        height: 130px;
+        border: 6px solid #9ACF16;
+
+    }
+
+
+    .logotipo{
+        width:  130px;
+        height: 130px;
+    }
+
+
+    .planeta1{
+        width: 300px;
+        height: 200px;
+        margin-top: 600px;
+
+    }
+
+
+    header{
+        width: 1200px;
+        height: 50px;
+        border:transparent;
+        background: transparent;
+        
+    }
+
+    .slider
+    {
+        margin-top: 250px;
+        margin-left:70px;
+        margin-right:0px;
+        width: 500px;
+        height: 250px;
+        position:absolute
+    }
+
+    .produtos{
+        width: 250%;
+        height: 250px;
+    }
+
+    .slide img{
+        width: 500px;
+    }
+
+
+    .slide{
+        width: 500px;
+    }
+
+
+    #rad1:checked ~ .primeiro{
+        margin-left: 0%;
+    }
+
+
+    #rad2:checked ~ .primeiro{
+        margin-left: -40%;
+    }
+
+
+    #rad3:checked ~ .primeiro{
+        margin-left: -80%;
+    }
+
+
+    #rad4:checked ~ .primeiro{
+        margin-left: -120%;
+    }
+
+
+    .botao-manual{
+        visibility: hidden;
+        padding: 0;
+    }
+
+
+    .autona{
+        visibility: hidden;
+    }
+
+
+    #cont{
+        height: max-content;
+    }
+
+}
+
+
+@media only screen and (max-width: 1366px) and (min-width: 1024px){
+   
+
+    body{
+        padding-right: 0;
+    }
+
+
+    .home{
+        margin-left: 225px;
+        font-size: 25px;
+        height: 20px;
+        width: 100px
+    }
+
+    .loja{
+        margin-left: 470px;
+        font-size: 25px;
+        height: 20px;
+        width: 150px
+    }
+
+
+    .contato{
+        margin-left: 780px;
+        font-size: 25px;
+        height: 20px;
+        width: 170px
+    }
+
+    .elipse{
+        width:  200px;
+        height: 200px;
+        border: 6px solid #9ACF16;
+
+    }
+
+
+    .logotipo{
+        width:  200px;
+        height: 200px;
+    }
+
+
+    .planeta1{
+        width: 200px;
+        height: 200px;
+        margin-top: 400px;
+        margin-left: 50px;
+    }
+
+
+    header{
+        width: 1110px;
+        height: 50px;
+        border: 5px solid #9ACF16;
+    }
+
+    .slider
+    {
+        margin-top: 250px;
+        margin-left:-800px;
+        width: 700px;
+        height: 300px;
+        position: relative;
+    }
+
+    .produtos{
+        width: 300%;
+        height: 300px;
+    }
+
+    .slide img{
+        width: 700px;
+    }
+
+
+    .slide{
+        width: 700px;
+    }
+
+
+    #rad1:checked ~ .primeiro{
+        margin-left: 0%;
+    }
+
+
+    #rad2:checked ~ .primeiro{
+        margin-left: -33.5%;
+    }
+
+
+    #rad3:checked ~ .primeiro{
+        margin-left: -66.9%;
+    }
+
+
+    #rad4:checked ~ .primeiro{
+        margin-left: -100%;
+    }
+
+
+    .botao-manual{
+        visibility: hidden;
+        padding: 0;
+    }
+
+
+    .autona{
+        visibility: hidden;
+    }
+
+
+    #cont{
+        height: max-content;
+    }
+
+}
+
+    
+
+
