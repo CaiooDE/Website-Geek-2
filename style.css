@@ -835,23 +835,23 @@ border-radius: 20px;
     {
         margin-top: 250px;
         margin-left:-800px;
-        width: 700px;
-        height: 300px;
+        width: 800px;
+        height: 400px;
         position: relative;
     }
 
     .produtos{
-        width: 300%;
-        height: 300px;
+        width: 400%;
+        height: 400px;
     }
 
     .slide img{
-        width: 700px;
+        width: 800px;
     }
 
 
     .slide{
-        width: 700px;
+        width: 800px;
     }
 
 
@@ -861,17 +861,17 @@ border-radius: 20px;
 
 
     #rad2:checked ~ .primeiro{
-        margin-left: -33.5%;
+        margin-left: -25%;
     }
 
 
     #rad3:checked ~ .primeiro{
-        margin-left: -66.9%;
+        margin-left: -50%;
     }
 
 
     #rad4:checked ~ .primeiro{
-        margin-left: -100%;
+        margin-left: -75%;
     }
 
 
